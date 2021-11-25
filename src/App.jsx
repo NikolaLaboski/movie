@@ -8,7 +8,7 @@ export function App() {
   return (
     <main>
       <Switch>
-        <Route path="/" component={Home} exact />
+        <Route path="/movie" component={Home} exact />
         <Route path="/movie/:id" component={MovieDetail} />
       </Switch>
     </main>
